@@ -1,0 +1,32 @@
+body {
+  padding-bottom: 70px;
+}
+
+.content-wrapper {
+  padding-top: 40px;
+}
+
+.login-wrapper { margin-top: 30px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #F8F9FA;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+}
+
+/* blocked users */
+tr.inactive {
+  background-color: #d9534f;
+  color: white;
+}
+
+tr.inactive:hover { background-color: #d9534f !important; }
+
+/* api */
+.show-username {
+  margin: 20px 0;
+}
